@@ -1,0 +1,3 @@
+Question4: List the four product which are greater than 500 in price
+
+Query:db.product.find({'product_price':{$gt:500}}).limit(4);

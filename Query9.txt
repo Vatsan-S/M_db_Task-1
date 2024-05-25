@@ -1,0 +1,3 @@
+Question9:Find products which contain product color indigo  and product price 492.00
+
+Query:db.product.find({$or:[{'product_color':{$eq:'indigo'}},{'product_price':{$eq:492}}]});

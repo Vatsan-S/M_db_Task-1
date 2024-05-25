@@ -1,0 +1,4 @@
+Queston 1: Find the product price which are between 400 to 800
+
+Query:
+db.product.find({$and:[{'product_price':{$gt:400}},{'product_price':{$lt:800}}]});

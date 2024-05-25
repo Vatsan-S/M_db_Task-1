@@ -1,0 +1,4 @@
+Question6:Find the product with a row id of 10
+
+
+Query: db.product.find({'id':{$eq:"10"}});

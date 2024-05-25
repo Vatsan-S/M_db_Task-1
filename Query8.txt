@@ -1,0 +1,3 @@
+Question8:Find all products which contain the value of soft in product material
+
+Query:db.product.find({'product_material':{$eq:'Soft'}});

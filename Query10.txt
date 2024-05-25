@@ -1,0 +1,4 @@
+Question10:Delete the products which product price value are 28
+
+
+query: db.product.deleteOne({'product_price':{$eq:28}});
